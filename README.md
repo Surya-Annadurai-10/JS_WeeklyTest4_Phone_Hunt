@@ -23,4 +23,4 @@ To get a local copy of the project up and running, follow these steps:
 - Show Details: Click on "Show Details" for any phone to see its specifications and features.
 - Show All: Click the "Show All" button to see every phone available from that brand, making comparisons easier.
 
-## Thank you for reviewing the project !!! atay tuned for more project!!
+## Thank you for reviewing the project💓 !!! stay tuned for more project!!
