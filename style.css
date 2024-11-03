@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 90vh;
+  background-color: #1d2735;
+}
+
+.head {
+  width: 90%;
+  height: 15%;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.head h1 {
+  color: #a6adba;
+  font-weight: bold;
+}
+
+.signup {
+  padding: 0.7rem 1.4rem;
+  background-color: #5716c7;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+.signup:hover {
+  background-color: #410f97;
+}
+
+.signup:active {
+  transform: scale(0.95);
+}
+
+.hero {
+  width: 100%;
+  height: 85%;
+  /* background-color: red; */
+  text-align: center;
+  line-height: 1.7;
+}
+
+.hero h1 {
+  color: #a6adba;
+  font-size: 4.3rem;
+}
+
+.hero p {
+  color: #a6adba;
+  font-size: 1.3rem;
+}
+
+.hero button {
+  margin-top: 1rem;
+}
+
+main {
+  width: 100%;
+  min-height: 90vh;
+  background-color: #1d232a;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  /* font: fallback; */
+  flex-direction: column;
+  /* padding-top: 20rem; */
+}
+
+.phones-section {
+  width: 100%;
+  background-color: #1d232a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 4rem;
+  position: relative;
+}
+
+.main-div {
+  width: 50%;
+  height: 40vh;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  /* margin-top: 20rem; */
+}
+
+.main-div h1 {
+  color: #a6adba;
+  font-size: 2.5rem;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 45%;
+}
+
+.main-div input {
+  width: 100%;
+  height: 5vh;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border-radius: 8px;
+  font-size: 1rem;
+  border: 1px solid grey;
+  caret-color: grey;
+  color: #a6adba;
+}
+
+.main-div input:focus {
+  box-shadow: 0 0 5px grey;
+}
+
+.search-btn {
+  font-size: 1.1rem;
+}
+
+footer {
+  width: 100%;
+  height: 50vh;
+  background-color: #1d2735;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-h2 {
+  text-align: center;
+}
+
+.footer-section {
+  width: 50%;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hash {
+  font-size: 5rem;
+  transform: rotatez(-20deg);
+}
+
+.iphone1,
+.iphone2,
+.iphone3 {
+  position: absolute;
+  top: -20%;
+}
+
+.iphone1 {
+  /* width: 100%; */
+  left: 18%;
+}
+
+.iphone2 {
+  width: 28%;
+  top: -50%;
+}
+
+.iphone3 {
+  left: 62%;
+}
+
+.phones {
+  width: 500px;
+  height: 50vh;
+  background-color: #1d232a;
+  border-radius: 10px;
+  box-shadow: 0 0 50px #191f25;
+  text-align: center;
+  line-height: 2;
+  padding: 1rem;
+  color: #a6adba;
+}
+
+.phones img {
+  border-radius: 10px;
+}
+
+.popUp {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  /* background-color: yellow; */
+  background-color: rgb(25, 31, 37, 0.3);
+  /* display: grid;
+    place-items: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1.1rem;
+  width: 30%;
+  height: 80vh;
+  background-color: rgb(29, 39, 53);
+  text-align: center;
+  color: #a6adba;
+  padding: 2rem;
+  line-height: 2;
+}
+
+.container p {
+  margin: 1rem 0;
+}
+
+.container img {
+  width: 40%;
+}
+
+.close {
+  padding: 0.5rem 1rem;
+  background-color: #ff0000;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+.close:hover {
+  transform: scale(0.95);
+  box-shadow: 0 0 10px black;
+  background-color: #191f25;
+}
+
+#showAll {
+  position: absolute;
+  bottom: 0;
+  /* visibility: hidden; */
+}
