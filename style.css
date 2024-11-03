@@ -195,13 +195,14 @@ footer {
 }
 
 .phones {
-  width: 500px;
-  height: 50vh;
+  width: 490px;
+  max-height: 450px;
   background-color: #1d232a;
   border-radius: 10px;
   box-shadow: 0 0 50px #191f25;
   text-align: center;
   line-height: 2;
+  /* background-color: yellow; */
   padding: 1rem;
   color: #a6adba;
 }
